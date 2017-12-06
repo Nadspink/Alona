@@ -1,0 +1,21 @@
+var numbers = '3 2 3 4 5 15 2 3 1';
+
+var arr = numbers.split(' ');
+var min=+arr[0];
+var max=+arr[0];
+for (var i = 0; i < arr.length; i++) {
+  
+  arrnumb=+arr[i];
+  if(arrnumb>max)
+  {max=arrnumb} 
+}
+for (var i = 0; i < arr.length; i++) {
+  arrnumb=+arr[i];
+  if(arrnumb<min){
+  min=arrnumb
+  }
+}
+alert(min);
+alert(max);
+****************************
+дан числовой маси разделенный пробелом в типе строка, найти минимальное и максимальное значение
